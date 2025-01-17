@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Under Construction</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('73313391652.png') no-repeat center center/cover;
+      color: green;
+      font-family: Monaco, monospace;
+      overflow: hidden;
+    }
+
+    #YakındaYazı {
+      font-size: 32px;
+      text-align: center;
+      line-height: 1.9;
+      animation: yaziyiSallandir 1.2s infinite;
+    }
+
+    span {
+      animation: imleç 1.5s infinite;
+    }
+
+    ::-moz-selection {
+      background: #7021d2;
+      color: #fff;
+    }
+
+    ::selection {
+      background: #7021d2;
+      color: #fff;
+    }
+
+    @keyframes yaziyiSallandir {
+      0%, 100% {
+        opacity: 0.8;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes imleç {
+      0%, 50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+  <div id="YakındaYazı">
+    █ █ █ <span style="color:black">█ █ █ █ █ █ █ █ █ █</span> 31%<br>
+    &gt; Coming soon...<br>
+    &gt; Site Under Construction <span id="imleç">█</span>
+  </div>
+</body>
+
+</html>
